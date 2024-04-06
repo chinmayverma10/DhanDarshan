@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/output.css">
-    <link rel="stylesheet" href="news.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
     <title>News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .news-container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+
+        .news-item {
+            display: flex;
+            background-color: #f3f4f6;
+            border: 2px solid #cbd5e0;
+            border-radius: 1rem;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .news-item:hover {
+            border-color: rgb(55, 65, 81);
+        }
+
+        .news-image {
+            width: 20%;
+            margin-right: 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        .news-content {
+            flex: 1;
+        }
+
+        .news-title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .news-details p {
+            margin-bottom: 0.5rem;
+        }
+
+        .news-link {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .news-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
     <div class="bg-gray-900 text-white py-2 text-center">
         <marquee behavior="scroll" direction="left">
@@ -83,64 +140,9 @@
         </div>
     </nav>
 
-    <div class="news-cards-container ">
-        <div class="news-card">
-            <div class="card-image">
-              <img src="https://fdn.gsmarena.com/imgroot/news/23/09/huawei-mate60-pro-plus-price-ram/-952x498w6/gsmarena_001.jpg"" alt="News Image">
-            </div>
-            <div class="card-content">
-              <h2><b>Title:</b> US investigating SMIC for violation of export rules for Huawei Mate 60 Pro chip - GSMArena.com news - GSMArena.com</h2>
-              <p><b>Description:</b> The Commerce Department is currently assessing the situation. The United States Commerce Department is investigating whether SMIC illegally obtained US...</p>
-              <p><b>Author:</b> Yordan</p>
-              <p><b>Published:</b> 2024-03-22T14:15:01Z</p>
-              <p><b>Source:</b> GSMArena.com</p>
-              <a href="https://www.gsmarena.com/us_investigating_smic_for_violation_of_export_rules_for_mate_60_pro_chip-news-62115.php"" class="read-more">Read more</a>
-            </div>
-        </div>
-        <div class="news-card">
-            <div class="card-image">
-              <img src="https://fdn.gsmarena.com/imgroot/news/23/09/huawei-mate60-pro-plus-price-ram/-952x498w6/gsmarena_001.jpg"" alt="News Image">
-            </div>
-            <div class="card-content">
-              <h2><b>Title:</b> US investigating SMIC for violation of export rules for Huawei Mate 60 Pro chip - GSMArena.com news - GSMArena.com</h2>
-              <p><b>Description:</b> The Commerce Department is currently assessing the situation. The United States Commerce Department is investigating whether SMIC illegally obtained US...</p>
-              <p><b>Author:</b> Yordan</p>
-              <p><b>Published:</b> 2024-03-22T14:15:01Z</p>
-              <p><b>Source:</b> GSMArena.com</p>
-              <a href="https://www.gsmarena.com/us_investigating_smic_for_violation_of_export_rules_for_mate_60_pro_chip-news-62115.php"" class="read-more">Read more</a>
-            </div>
-        </div>
-        <div class="news-card">
-            <div class="card-image">
-              <img src="https://fdn.gsmarena.com/imgroot/news/23/09/huawei-mate60-pro-plus-price-ram/-952x498w6/gsmarena_001.jpg"" alt="News Image">
-            </div>
-            <div class="card-content">
-              <h2><b>Title:</b> US investigating SMIC for violation of export rules for Huawei Mate 60 Pro chip - GSMArena.com news - GSMArena.com</h2>
-              <p><b>Description:</b> The Commerce Department is currently assessing the situation. The United States Commerce Department is investigating whether SMIC illegally obtained US...</p>
-              <p><b>Author:</b> Yordan</p>
-              <p><b>Published:</b> 2024-03-22T14:15:01Z</p>
-              <p><b>Source:</b> GSMArena.com</p>
-              <a href="https://www.gsmarena.com/us_investigating_smic_for_violation_of_export_rules_for_mate_60_pro_chip-news-62115.php"" class="read-more">Read more</a>
-            </div>
-        </div>
-        <div class="news-card">
-            <div class="card-image">
-              <img src="https://fdn.gsmarena.com/imgroot/news/23/09/huawei-mate60-pro-plus-price-ram/-952x498w6/gsmarena_001.jpg"" alt="News Image">
-            </div>
-            <div class="card-content">
-              <h2><b>Title:</b> US investigating SMIC for violation of export rules for Huawei Mate 60 Pro chip - GSMArena.com news - GSMArena.com</h2>
-              <p><b>Description:</b> The Commerce Department is currently assessing the situation. The United States Commerce Department is investigating whether SMIC illegally obtained US...</p>
-              <p><b>Author:</b> Yordan</p>
-              <p><b>Published:</b> 2024-03-22T14:15:01Z</p>
-              <p><b>Source:</b> GSMArena.com</p>
-              <a href="https://www.gsmarena.com/us_investigating_smic_for_violation_of_export_rules_for_mate_60_pro_chip-news-62115.php"" class="read-more">Read more</a>
-            </div>
-        </div>
-      
+    <div class="news-container">
+        
     </div>
-    
-
-
 
     <div className="footer bottom-0 left-0 w-full">
         <footer class="bg-white dark:bg-gray-900">
@@ -148,8 +150,7 @@
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
                         <a href="https://flowbite.com/" class="flex items-center">
-                            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3"
-                                alt="FlowBite Logo" /> 
+                            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
                             <span
                                 class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DhanDarshan</span>
                         </a>
@@ -252,5 +253,8 @@
         </footer>
 
     </div>
+
+    <script src="news.js"></script>
 </body>
+
 </html>

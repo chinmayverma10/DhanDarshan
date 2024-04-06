@@ -1,0 +1,131 @@
+  <div class="news-container">
+
+        <!-- First News Item -->
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p class="news-source">Source: Example Source</p>
+                <p class="news-author">Author: John Doe</p>
+                <p class="news-description">Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p class="publishedat">Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <!-- Second News Item -->
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <!-- Additional News Items Here -->
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <!-- Image -->
+            <img src="https://via.placeholder.com/150" alt="News Image" class="news-image">
+            <!-- News Content -->
+            <div class="news-content">
+                <h2 class="news-title">News Title</h2>
+                <p>Source: Example Source</p>
+                <p>Author: Jane Doe</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="news-link">Read More</a>
+                <p>Published at: 2024-04-06</p>
+            </div>
+        </div>
+    </div>
